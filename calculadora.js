@@ -10,6 +10,16 @@ function calcular(){
     
     let resultado;
 
+    switch(operaciones){
+
+        case '+' :
+           resultado= parseInt(operando1) +parseInt(operando2);
+       
+        break;
+
+        
+    }       
+
 
 
 
