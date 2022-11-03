@@ -16,3 +16,40 @@ h4 {
 	border:red;
 	text-align: left;
 }
+
+.div__calcucompleta-texto{
+	box-shadow: 10px;
+	text-align: center;
+	text-shadow: 0px 2px 10px black;
+	position:relative;
+}
+
+#calcucompleta{	
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	left: 22%;
+	right: 22%;
+}
+
+#calculadora{
+	
+	display: inline-block;
+	text-align: center;
+	background-color: #BAC1C0;
+	width: 210px;
+	left: 150px; 
+	margin-left: -6px;
+	padding-top: 30px;
+	padding-bottom: -20px;
+	z-index: 1;
+	box-shadow: 10px 5px 5px black;
+}
+
+#texto{
+	padding-left: 10px;
+	background-color: #BAC1C0;
+	z-index: 1;
+	display: inline-block;
+	margin-top: 40px;
+	box-shadow: 10px 5px 5px black;
