@@ -26,11 +26,11 @@ function calcular(){
    			 resultado= parseInt(operando1) * parseInt(operando2);
 
     	break;
+        case '/' :
+              resultado= parseInt(operando1) / parseInt(operando2);
+        break;
     }       
-
-
-
-
+alert(resultado);
 }
 
 
