@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleCalculadora.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<h1>Bienvenido a tu calculadora </h1>
+
+    <div id="calcucompleta">
+        
+
+        <div id="texto">
+         <h4 class="div__calcucompleta-texto">Ingrese el 1er numero</h4> <br>
+         <h4 class="div__calcucompleta-texto">Indique que operacion <br> desea hacer</h4><br>
+         <h4 class="div__calcucompleta-texto">Ingrese el 2do numero</h4><br>
+        </div>
+
+        <div id="calculadora">
+        
+
+            <input type="number" id="operando1" /><br>
+
+        
+            <select id="operacion"> operacion
+            <option> + </option>
+            <option> - </option>
+            <option> * </option>
+            <option> / </option>
+            </select><br><br>
+
+        
+            <input type="number"  id="operando2"/><br><br>        
+        </div>
+
+        <div class="div__calcucompleta-buttom">
+            <button id="calcular">  Realizar operacion</button>
+        </div>
+
+ </div>
+
+    
+
+    <script src="calculadora.js"></script>	
+</body>
+</html>
